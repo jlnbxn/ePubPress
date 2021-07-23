@@ -16,7 +16,7 @@ export const getPosts = async (value, onUpdate) => {
 
     while (response.status === 200) {
         response = await fetch(`${api}?page=${i}`);
-        onUpdate(`Downloading Page ${i}${total ? " of " + total : ""}`);
+        onUpdate(`Downloading Page ${i}${total ? " of " + `${total}` : ""}`);
 
         if (response.status === 200) {
             posts = posts.concat(await response.json());

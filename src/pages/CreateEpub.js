@@ -120,7 +120,7 @@ function CreateEpub() {
                     for (let img of images) {
                         try {
                             setUrl(`Downloading ${img.src.split("/").pop()}`);
-                            const postImage = await fetch(`/cors-proxy/${img.src}`).then(
+                            const postImage = await fetch(`/cors-proxy/${img.src.replace('https://', '')}`).then(
                                 (response) => {
                                     if (response.ok) return response.blob();
                                     throw "Network response was not ok.";
