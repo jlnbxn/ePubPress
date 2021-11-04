@@ -1,19 +1,3 @@
----
-title: ePubPress
-description: "E-Book Creator for Wordpress Blogs"
-order: 5
-thumb: assets/thumb.png
-slug: epubpress
-client: Personal Project
-category: Web App
-tools: React, Material UI
-year: 2021
-github: https://github.com/jlnbxn/epub-press
-website: https://epubpress.netlify.app
-brandColor: "#E54112"
-summary: ePubPress allows users to turn almost any Wordpress site into an easily digestible ebook, thanks to Wordpress’s JSON API and a nifty trick of reverse proxying image links.
----
-
 ## The Problem
 
 There are a lot of blogs with high quality content — sadly, the reading experience often doesn’t do their creators justice.
@@ -32,11 +16,11 @@ This way, you can archive your favorite blogs, and indulge all at once in any ne
 
 Get the full advantage of the tools ebook readers come with, including the highlighting of text passages, bookmarking positions, and adding notes.
 
-![Enter URL](./assets/enter-url.png "Enter an URL to a Wordpress(.com) blog...")
+![Enter URL](./docs/assets/enter-url.png "Enter an URL to a Wordpress(.com) blog...")
 
-![Downloading Progress](./assets/downloading.png "...observe the progress bar..")
+![Downloading Progress](./docs/assets/downloading.png "...observe the progress bar..")
 
-![Book](./assets/book.png "...enjoy reading!")
+![Book](./docs/assets/book.png "...enjoy reading!")
 
 ## Background
 
@@ -62,7 +46,7 @@ Ticking the “Include Images” box fetches each image on each post, creates a 
 
 Where available, other information gathered through the API is used to populate the .epub’s metadata field, such as the site author, categories and publisher.
 
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -131,4 +115,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
