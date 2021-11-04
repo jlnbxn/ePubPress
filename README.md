@@ -16,11 +16,11 @@ This way, you can archive your favorite blogs, and indulge all at once in any ne
 
 Get the full advantage of the tools ebook readers come with, including the highlighting of text passages, bookmarking positions, and adding notes.
 
-![Enter URL](./docs/assets/enter-url.png "Enter an URL to a Wordpress(.com) blog...")
+![Enter URL](./docs/assets/img/enter-url.png "Enter an URL to a Wordpress(.com) blog...")
 
-![Downloading Progress](./docs/assets/downloading.png "...observe the progress bar..")
+![Downloading Progress](./docs/assets/img/downloading.png "...observe the progress bar..")
 
-![Book](./docs/assets/book.png "...enjoy reading!")
+![Book](./docs/assets/img/book.png "...enjoy reading!")
 
 ## Background
 
