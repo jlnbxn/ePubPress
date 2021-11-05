@@ -10,17 +10,48 @@ Create a web app that allows one to enter a Wordpress URL, and be returned an eb
 
 ## Outcome
 
-ePubPress is a web app that allows you to enter an URL to a Wordpress site and get back a fully-fledged ebook, with each chapter corresponding to a post.
+**ePubPress** is a web app that allows you to enter an URL to a Wordpress site and get back a fully-fledged ebook, with each chapter corresponding to a post.
 
 This way, you can archive your favorite blogs, and indulge all at once in any new gem you fund — even offline.
 
 Get the full advantage of the tools ebook readers come with, including the highlighting of text passages, bookmarking positions, and adding notes.
 
-![Enter URL](./docs/assets/img/enter-url.png "Enter an URL to a Wordpress(.com) blog...")
+<figure>
+  <img
+  src="./docs/assets/img/enter-url.png"
+  alt="Enter URL"/>
+  <figcaption>Enter an URL to a Wordpress(.com) blog...</figcaption>
+</figure>
 
-![Downloading Progress](./docs/assets/img/downloading.png "...observe the progress bar..")
+<figure>
+  <img
+  src="./docs/assets/img/downloading.png"
+  alt="Downloading Progress"/>
+  <figcaption>...observe the progress bar..</figcaption>
+</figure>
 
-![Book](./docs/assets/img/book.png "...enjoy reading!")
+<figure>
+  <img
+  src="./docs/assets/img/book.png"
+  alt="Book"/>
+  <figcaption>...enjoy reading!</figcaption>
+</figure>
+
+### Built With
+
+- [React.js](https://reactjs.org/)
+- [Material UI](https://mui.com/)
+- [Wordpress API](https://developer.wordpress.org/rest-api/)
+- [Netlify](https://netlify.com)
+
+## Getting Started
+
+1. `npm install netlify-cli -g`
+2. `netlify dev`
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Background
 
@@ -45,74 +76,3 @@ On success, a request is sent to the API, looping through the posts and binding 
 Ticking the “Include Images” box fetches each image on each post, creates a blob and attaches it as a local reference in place of the original link. Naturally, this lengthens the process quite a bit, which is why I decided to include a progress indicator, as to not give off the impression of an unresponsive program.
 
 Where available, other information gathered through the API is used to populate the .epub’s metadata field, such as the site author, categories and publisher.
-
-<!-- # Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
